@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import {conversation} from '../src/cli.js';
+// eslint-disable-next-line import/extensions
+import { conversation } from '../src/cli.js';
 
-conversation()
+conversation();
