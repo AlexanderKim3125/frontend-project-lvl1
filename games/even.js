@@ -11,7 +11,9 @@ export const even = () => {
       return this.randomNumber;
     }
 
-    static getError() {
+    static getError(result, answer, name) {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
+      console.log(`Let's try again, ${name}!`);
     }
 
     getResult() {
